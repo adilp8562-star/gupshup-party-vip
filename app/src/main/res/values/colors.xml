@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy_bg">#070D1F</color>
+    <color name="navy_card">#101A36</color>
+    <color name="royal_gold">#FFD700</color>
+    <color name="gold_dark">#D4AF37</color>
+    <color name="electric_teal">#00E5FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_muted">#8A99B8</color>
+</resources>
