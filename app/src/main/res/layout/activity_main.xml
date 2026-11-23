@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvLobbyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIP Voice Lounge"
+        android:textColor="@color/royal_gold"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLobbyStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Active Party Rooms Ready"
+        android:textColor="@color/electric_teal"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnJoinRoom"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_gold_button"
+        android:text="Enter Voice Room"
+        android:textAllCaps="false"
+        android:textColor="@color/navy_bg"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
