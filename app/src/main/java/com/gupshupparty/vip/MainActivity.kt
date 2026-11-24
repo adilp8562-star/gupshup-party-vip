@@ -1,5 +1,6 @@
 package com.gupshupparty.vip
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
@@ -25,6 +26,10 @@ class MainActivity : AppCompatActivity() {
                 "Joining VIP Voice Room...$ownerTag",
                 Toast.LENGTH_SHORT
             ).show()
+
+            val intent = Intent(this, VoiceRoomActivity::class.java)
+            intent.putExtra("EXTRA_OWNER_TAG", ownerTag)
+            startActivity(intent)
         }
     }
 }
